@@ -48,8 +48,8 @@ int main (){
     
     cout<<"FFT\n";
     
-    for(auto coef: numeros){
-        cout << coef << endl;
+    for(auto valor: numeros){
+        cout << valor << endl;
     }    
 return 0;
 }
