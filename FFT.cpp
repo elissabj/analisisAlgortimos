@@ -3,7 +3,7 @@ INSTITUTO POLITÉCNICO NACIONAL
 Escuela Superior de Cómputo
 Análisis de Algortimos
 Ramos Gómez Elisa
-Discrete Fourier Transform
+Fast Fourier Transform
 3CV3
 */
 #include <bits/stdc++.h>
