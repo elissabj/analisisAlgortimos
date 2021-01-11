@@ -1,6 +1,6 @@
  /*
 INSTITUTO POLITÉCNICO NACIONAL 
-Escuela Superior de Cómputo
+Escuela Superior de Computo
 Análisis de Algortimos
 Ramos Gómez Elisa
 Algoritmos Glotones (greedy) - Mochila Fraccionaria
