@@ -38,3 +38,40 @@ int main(){
 
 return 0;
 }
+
+/*
+//proceso de calcular el resultado en leetcode
+  //if(s1[i-1] == s2[j-1]) return lcs(i-1, j-1) + 1;
+    class Solution {
+
+private:
+    vector<vector<int>> mem;
+    string s1, s2;
+public:
+    
+    //de solucion iniciame el vector que tengo declarado en el private
+    Solution(): mem(1100, vector<int>(1100, -1)){} 
+    
+    int lcs (int i, int j){
+        //casos bases
+        if(i == 0 || j == 0) return 0;
+
+        //ya lo calcule
+        if(mem[i][j] != -1) return mem[i][j];
+
+        //proceso de calcular el resultado
+        mem[i][j] = lcs(i-1, j-1) + 1;
+        if(s1[i-1] == s2[j-1]) return mem[i][j];
+
+        mem[i][j] = max (lcs(i, j-1), lcs(i-1, j));
+
+        return mem[i][j];
+    }
+    
+    
+    int longestCommonSubsequence(string text1, string text2) {
+        s1 = text1; s2 = text2;
+        return lcs(text1.size(), text2.size());
+    }
+};
+*/
